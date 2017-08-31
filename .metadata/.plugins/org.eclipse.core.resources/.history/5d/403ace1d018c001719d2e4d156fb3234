@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+
+<body>
+	<P>to jest strona bloga!</P>
+	<a href="/">omnie</a>
+	
+	<a href="#">blog</a>
+	
+	<a href="/kontakt">kontakt</a>
+	
+	<p>Dodaj post</p>
+	<form th:action="@{/add}" method="post">
+		<p>tytu³</p>
+		<input type="text" th:field="${post.title}" /> <br/>
+		<p>zawartoœæ</p>
+		<textarea th:field="${post.content}"></textarea> <br/>
+		<p>podpis</p>
+		<input type="text" th:field="${post.sign}" /> <br/>
+		<input type="submit" value="send" />
+	
+	</form>
+</body>
+
+</html>

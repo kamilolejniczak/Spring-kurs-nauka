@@ -1,0 +1,8 @@
+<html>
+
+<body>
+	<P>Hello in Spring Boot Application!</P>
+<a href="info.html">http://google.pl</a>
+</body>
+
+</html>

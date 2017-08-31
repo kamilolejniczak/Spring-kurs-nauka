@@ -1,0 +1,8 @@
+body {
+	font-family: "Lato";
+	font-size:15px;
+}
+p {
+	text-align:left;
+	margin-bottom:50px;
+}

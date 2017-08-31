@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="strona.css"/>
+<meta http-equiv="Content-type" content="text/html; charset=utf-8"/>
+<script type = "text/javascript" src = "script.js"></script>
+</head>
+<body>
+	<P>mój kontakt!</P>
+	<a href="javacript:alert('chcesz przejść na o mnie');">omnie</a>
+	<a href="/blog">blog</a>
+	<a href="#">kontakt</a>
+
+<p>=====================================</p>
+
+	<form action="/success" method="get">
+		<p>Insert name</p>
+		<input type="text" name="first" /> <br/>
+		<p>Insert last</p>
+		<input type="text" name="last" /> <br/>
+		<p>Insert email</p>
+		<input type="email" name="email" /> <br/>
+		<p>Insert ślij</p>
+		<input type="submit" value="send" />
+	
+	</form>
+
+
+
+
+</body>
+
+</html>

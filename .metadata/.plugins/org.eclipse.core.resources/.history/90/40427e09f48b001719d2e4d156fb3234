@@ -1,0 +1,9 @@
+package pl.reaktor.model;
+
+public class Kontakt {
+
+	private String first;
+	private String last;
+	private String email;
+	
+}

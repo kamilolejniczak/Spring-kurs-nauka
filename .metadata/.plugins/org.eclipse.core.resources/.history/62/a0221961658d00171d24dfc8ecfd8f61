@@ -1,0 +1,7 @@
+spring.datasource.url=jdbc:mysql://localhost:3306/springtest?useSSL=false
+spring.datasource.username=root
+spring.datasource.password=kamil2017
+#odswiezanie przy kazdym uruchomieniu
+spring.jpa.hibernate.ddl-auto=create
+#zapytania widoczne w konsoli
+spring.jpa.show-sql=true

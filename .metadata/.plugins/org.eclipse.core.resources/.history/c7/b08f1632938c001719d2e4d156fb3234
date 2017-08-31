@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta http-equiv="Content-type" content="text/html; charset=utf-8"/>
+</head>
+<body>
+	
+	<form th:action="@{/result}" method="post">
+		<p>Login:
+		<input type="text" th:field="${reg.login}" /> </p><br/>
+		<p>Password:
+		<input type="text" th:field="${reg.pass}" /> </p><br/>
+		<p>Email:
+		<input type="text" th:field="${reg.email}" /> </p><br/>
+		<p>Data urodzenia:
+		<input type="text" th:field="${reg.date}" /> </p><br/>
+		<p>Znajomość języka programowania:
+		<input type="checkbox" th:field="${reg.cb1}" />Java
+		<input type="checkbox" th:field="${reg.cb2}" />Python
+		<input type="checkbox" th:field="${reg.cb3}" />Other</p>
+		<p>Znajomość języka angielskiego:
+		<input type="radio" th:field="${reg.radio}" name="radio" value="Advanced" />Advanced
+		<input type="radio" th:field="${reg.radio}" name="radio" value="Intermediate" />Intermediate
+		<input type="radio" th:field="${reg.radio}" name="radio" value="Basic" />Basic <br/>
+		<input type="submit" value="send" /></p>
+	
+	</form>
+</body>
+
+</html>

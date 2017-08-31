@@ -1,0 +1,43 @@
+package pl.reaktor.model;
+
+public class Credit {
+
+	private int kwota;
+	private int czas;
+	private double procent;
+	private double rata;
+	private double suma;
+	
+	public int getKwota() {
+		return kwota;
+	}
+	public void setKwota(int kwota) {
+		this.kwota = kwota;
+	}
+	public int getCzas() {
+		return czas;
+	}
+	public void setCzas(int czas) {
+		this.czas = czas;
+	}
+	public double getProcent() {
+		return procent;
+	}
+	public void setProcent(double procent) {
+		this.procent = procent;
+	}
+	public double getRata() {
+		return rata;
+	}
+	public void setRata(double rata) {
+		this.rata = rata;
+	}
+	public double getSuma() {
+		return suma;
+	}
+	public void setSuma(double suma) {
+		this.suma = suma;
+	}
+	
+	
+}

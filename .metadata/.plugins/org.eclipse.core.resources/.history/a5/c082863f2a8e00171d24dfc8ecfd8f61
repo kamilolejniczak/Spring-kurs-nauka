@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta http-equiv="Content-type" content="text/html; charset=utf-8"/>
+</head>
+<body>
+<p>Dostałeś się do zasobów NSA!!!!</p>
+<img src="buttonhelp.jpg" />
+<a href="secured.html" > bezpieczna</a>
+
+</body>
+
+</html>

@@ -1,0 +1,45 @@
+package pl.reaktor;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.context.ConfigurableApplicationContext;
+
+import pl.reaktor.model.Car;
+import pl.reaktor.repository.CarRepo;
+
+@SpringBootApplication
+public class D2MvcData1Application {
+
+	public static void main(String[] args) {
+		ConfigurableApplicationContext ctx = 
+		SpringApplication.run(D2MvcData1Application.class, args);
+		
+		List<Car> cars = new ArrayList<>();
+		
+		cars.add(new Car("A6","Audi",200000.0));
+		cars.add(new Car("Auris","Toyota",100000.0));
+		cars.add(new Car("Panda","Fiat",40000.0));
+		cars.add(new Car("Tipo","Fiat",30000.0));
+		cars.add(new Car("Uno","Fiat",20000.0));
+		
+		CarRepo cr = ctx.getBean(CarRepo.class);
+		//zapisanie do bazy danych
+		cars.forEach(cr::save);
+		
+		//Car selectedCar = cr.findOne(1L);
+		//cr.delete(selectedCar);
+		
+		cr.findAll().forEach(System.out::println);
+		cr.count();
+		
+		
+		
+		
+		
+		cr.findByBrand("Fiat").forEach(System.out::println);
+		ctx.close();
+	}
+}

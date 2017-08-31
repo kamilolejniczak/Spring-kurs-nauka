@@ -1,0 +1,25 @@
+package pl.reaktor.controller;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
+import org.springframework.web.bind.annotation.ModelAttribute;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestMapping;
+
+import pl.reaktor.model.Credit;
+
+@Controller
+public class CreditController {
+
+	@RequestMapping("/")
+	public String calc(Model model){
+		return "calc";
+	}
+	@PostMapping("/result")
+	public String result(@ModelAttribute Credit cr, Model model){
+		model.addAttribute("cr", cr);
+		cr.setKwota(cr.getKwota()){
+		return "result";
+		}
+	}
+}

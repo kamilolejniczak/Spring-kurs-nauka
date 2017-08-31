@@ -1,0 +1,7 @@
+<!DOCTYPE html>
+<html>
+
+<body>
+	<h1>Thank you ${kontakt.first} for your message!</h1>
+
+</html>

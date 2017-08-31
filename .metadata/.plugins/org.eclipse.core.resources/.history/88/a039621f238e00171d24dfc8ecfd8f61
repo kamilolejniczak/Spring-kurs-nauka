@@ -1,0 +1,5 @@
+pl.reaktor.model.Person.firstName.NotEmpty = to pole nie moze byc puste
+pl.reaktor.model.Person.lastName.NotEmpty = to pole nie moze byc puste
+pl.reaktor.model.Person.email.NotEmpty = to pole nie moze byc puste
+pl.reaktor.model.Person.email.Email = nieprawidlowy mail
+pl.reaktor.model.Person.age.Min = to pole nie moze byc puste

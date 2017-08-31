@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+
+<body>
+	<P>to jest strona bloga!</P>
+	<a href="/">omnie</a>
+	<p>-----lub----</p>
+	<a href="#">blog</a>
+	<p>-----lub----</p>
+	<a href="/kontakt">kontakt</a>
+	
+	<p>Dodaj post</p>
+	<form th:action="@{/add}" method="post">
+		<p>Insert name</p>
+		<input type="text" th:field="${c.first}" /> <br/>
+		<p>Insert last</p>
+		<input type="text" th:field="${c.last}" /> <br/>
+		<p>Insert email</p>
+		<input type="email" th:field="${c.email}" /> <br/>
+		<input type="submit" value="send" />
+	
+	</form>
+</body>
+
+</html>

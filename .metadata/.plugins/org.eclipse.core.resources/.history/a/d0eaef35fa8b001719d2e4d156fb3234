@@ -1,0 +1,31 @@
+package pl.reaktor.controller;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RequestMapping;
+
+
+import pl.reaktor.model.Kontakt;
+
+@Controller
+public class BlogController {
+
+	@RequestMapping("/")		
+	public String omnie(){		
+		return "omnie";
+	}
+	@RequestMapping("/blog")		
+	public String blog(){		
+		return "blog";
+	}
+	@RequestMapping("/kontakt")		
+	public String kontakt(){		
+		return "kontakt";
+	}
+	@GetMapping("/success")
+	public String success(Model model){
+		model.addAttribute("kontakt", new Kontakt());
+		return "success";
+	}
+}

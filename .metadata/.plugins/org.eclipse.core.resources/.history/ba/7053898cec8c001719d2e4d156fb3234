@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta http-equiv="Content-type" content="text/html; charset=utf-8"/>
+</head>
+<body>
+	<h1> Brawo otrzymales kredyt </h1>
+<p> Kwota miesiecznej raty </p>
+<p th:text="${(credit.kwota_kredyt*(1+credit.procent))/credit.l_rat}"></p>
+<p> Kwota kredytu </p>
+<p th:text="${credit.kwota_kredyt * (1+credit.procent)}"></p>
+</body>
+</html>

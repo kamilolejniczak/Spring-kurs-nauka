@@ -1,0 +1,22 @@
+package pl.reaktor.model;
+
+public class Credit {
+
+	private int kwota;
+	private int czas;
+	
+	public int getKwota() {
+		return kwota;
+	}
+	public void setKwota(int kwota) {
+		this.kwota = kwota;
+	}
+	public int getCzas() {
+		return czas;
+	}
+	public void setCzas(int czas) {
+		this.czas = czas;
+	}
+	
+	
+}

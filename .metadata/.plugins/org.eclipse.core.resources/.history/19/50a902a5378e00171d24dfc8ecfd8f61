@@ -1,0 +1,8 @@
+package snippet;
+
+public class Snippet {
+	security.user.name=kamil
+	security.user.password=pass
+	security.user.role=ADMIN
+}
+

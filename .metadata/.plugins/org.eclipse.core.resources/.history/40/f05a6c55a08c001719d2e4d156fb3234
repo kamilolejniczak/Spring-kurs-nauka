@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta http-equiv="Content-type" content="text/html; charset=utf-8"/>
+</head>
+<body>
+	<a href="/">home</a>
+	<p>==================================================================</p>
+	<h1>Result:</h1>
+	<p th:text="${reg.login} +${reg.pass}"></p>			<!-- konkatenacja -->
+	<p th:text="${reg.pass}"></p>
+	<p th:text="${reg.email}"></p>
+	<p th:text="${reg.date}"></p>
+	<p th:text="${reg.cb1}" th:text="Java"></p>
+	<p th:text="${reg.cb2}" th:text="Python"></p>
+	<p th:text="${reg.cb3}" th:text="Other"></p>
+	<p th:text="${reg.radio}"></p>
+	
+	
+</body>
+
+</html>

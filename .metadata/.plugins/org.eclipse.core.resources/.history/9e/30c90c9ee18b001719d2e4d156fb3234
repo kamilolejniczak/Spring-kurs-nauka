@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+
+<body>
+	<P>to jest strona bloga!</P>
+	<a href="/">omnie</a>
+	<p>-----lub----</p>
+	<a href="/blog">blog</a>
+	<p>-----lub----</p>
+	<a href="/kontakt">kontakt</a>
+</body>
+
+</html>

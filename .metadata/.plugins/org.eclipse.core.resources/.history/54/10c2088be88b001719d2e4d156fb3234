@@ -1,0 +1,19 @@
+package pl.reaktor.controller;
+
+import org.springframework.web.bind.annotation.RequestMapping;
+
+public class BlogController {
+
+	@RequestMapping("/")		
+	public String omnie(){		
+		return "omnie";
+	}
+	@RequestMapping("/blog")		
+	public String blog(){		
+		return "blog";
+	}
+	@RequestMapping("/kontakt")		
+	public String kontakt(){		
+		return "kontakt";
+	}
+}

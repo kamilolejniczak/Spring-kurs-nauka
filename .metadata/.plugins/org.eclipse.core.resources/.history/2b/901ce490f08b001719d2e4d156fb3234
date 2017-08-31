@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+
+<body>
+	<P>mój kontakt!</P>
+	<a href="/">omnie</a>
+	<a href="/blog">blog</a>
+	<a href="#">kontakt</a>
+
+<p>=====================================</p>
+
+	<form action="/success" method="get">
+		<p>Insert name</p>
+		<input type="text" name="first" /> <br/>
+		<p>Insert name</p>
+		<input type="text" name="last" /> <br/>
+		<p>Insert name</p>
+		<input type="email" name="email" /> <br/>
+		<p>Insert name</p>
+		<input type="submit" value="send" />
+	
+	</form>
+
+
+
+
+</body>
+
+</html>

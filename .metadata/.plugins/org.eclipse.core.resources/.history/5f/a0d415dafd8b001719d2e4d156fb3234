@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+
+<body>
+	<h1 th:text="${c.first}">Thank you </h1>
+	<p th:text="${c.last}">abc</p>
+	<p th:text="${c.email}">abc</p>
+	
+	<P>===========================</P>
+	<a href="/">omnie</a>
+	<a href="/blog">blog</a>
+	<a href="/kontakt">kontakt</a>
+	
+</body>
+</html>

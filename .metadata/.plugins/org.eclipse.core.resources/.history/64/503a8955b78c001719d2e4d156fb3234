@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta http-equiv="Content-type" content="text/html; charset=utf-8"/>
+</head>
+<body>
+	<p>kwota</p>
+	<p th:text="${cr.kwota}"></p>
+	<p>kwota</p>
+	<p th:text="${cr.czas}"></p>
+
+</body>
+</html>

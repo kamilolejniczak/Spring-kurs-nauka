@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aop-reference-model>
+<aop-project name="D-MVC4-War"/>
+<aop-project name="D-MVC3-War"/>
+<aop-project name="D4-MVC-sec"/>
+<aop-project name="D-MVC2-j"/>
+<aop-project name="D3-MVC-Validation"/>
+<aop-project name="Pojekt-KalkulatorRat"/>
+<aop-project name="D2-MVC1-thymeleaf"/>
+<aop-project name="D2-MVC-Data1"/>
+<aop-project name="D-MVC2-JAR"/>
+<aop-project name="D-MVC1"/>
+</aop-reference-model>

@@ -1,0 +1,14 @@
+package pl.reaktor.controller;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
+
+@Controller
+public class MainController {
+
+	@RequestMapping("/")
+	public String home(Model model){
+		model.addAllAttributes("person", person)
+		return "home";
+	}
+}

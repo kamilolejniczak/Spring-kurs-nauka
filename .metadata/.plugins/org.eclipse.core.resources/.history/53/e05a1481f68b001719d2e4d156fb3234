@@ -1,0 +1,7 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+
+<body>
+	<h1>Thank you ${kontaktu.first} for your message!</h1>
+</body>
+</html>
